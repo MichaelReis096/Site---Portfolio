@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Michael Reis</title>
   <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
 </head>
 
 <body>
@@ -16,11 +17,14 @@
         <div class="barra-navegacao">
           <h2 class="titulo-navegacao">Michael Reis</h2>
         <div>
-          <a class="links-navegacao">Habilidades</a>
-        <a class="links-navegacao">Portfòlio</a>
-        <a class="links-navegacao">Eperiência</a>
+          <a onclick="onclickScrollTo('section-abilities')" 
+          class="links-navegacao"> Habilidades</a>
+        <a onclick="onclickScrollTo('section-portfolio')"
+        class="links-navegacao">Portfòlio</a>
+        <a onclick="onclickScrollTo('section-experiences')"
+        class="links-navegacao">Eperiência</a>
         </div>
-        <button >CONTATO</button>
+        <button onclick="onclickScrollTo('section-contact')">CONTATO</button>
         </div>
     
         <div class="hero-info">
@@ -30,7 +34,7 @@
               Programador desde 2022, com foco em desenvolvimento web,atuando em mais
               de 20 projetos.
             </p>
-            <button >ENTRAR EM CONTATO</button>
+            <button onclick="onclickScrollTo('section-contact')">ENTRAR EM CONTATO</button>
             <div class="hero-info-icons-container">
               <a>
                 <img class="hero-info-icons-img" src="github.png.png" alt="github">
@@ -53,7 +57,7 @@
         </div>
       </section>
     
-      <section class="section-abilities">
+      <section class="section-abilities" id="section-abilities">
         <h2>Habilidades </h2>
         <h2 class="verde">que domino.</h2>
         <div class="ability-card-container">
@@ -120,7 +124,7 @@
         </div> 
         </div>
       </section>
-      <section class="section-portfolio">
+      <section class="section-portfolio" id="section-portfolio">
         <h2>Portfólio</h2>
         <h2 class="verde"> de projetos.</h2>
         <div class="section-portfolio-grid">
@@ -171,7 +175,7 @@
           </div>
         </div>
       </section>
-      <section class="section-experiences">
+      <section class="section-experiences" id="section-experiences">
         <h2>Experiências</h2>
         <h2 class="verde"> profissionais.</h2>
         <div class="section-experiences-card">
@@ -199,7 +203,7 @@
         </div>
       </section>
 
-      <section class="section-contact">
+      <section class="section-contact" id="section-contact">
        <h2>Como posso </h2>
         <h2 class="verde"> te ajudar ?</h2>
         <p>Estou à diposição para ajudar o seu projeto ou sua empresa.</p>
