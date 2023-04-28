@@ -224,10 +224,8 @@ a {
 
 .ability-card-icon-img{
   width: 40px;
-  height: 40px;
+  height: auto;
 }
-
-
 
 .ability-list{
   width: 90%;
