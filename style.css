@@ -369,7 +369,7 @@ a {
   justify-content: space-between;
 }
 
-.footer-social-icons-container{
+.footer-social-icons-container { 
   display: flex;
   flex-direction: row;
   align-items: center;
